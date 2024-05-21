@@ -1,0 +1,53 @@
+
+#### Added by Drupal Env project scaffolding ####
+
+# Ignore .env files as they are personal
+/*.env
+# Ensure composer.log is NOT ignored.
+!/composer.log
+# Mount directories created for platform.sh
+/tmp
+/private
+/.drush
+/drush-backups
+/.console
+/var
+# IDE settings
+/.idea
+/.vscode
+# Databases
+/*.sql
+/*.sql.gz
+/db/*.sql
+/db/*.sql.gz
+# Node dependencies
+node_modules
+# Ignore contrib files
+/drush/Commands/contrib
+/vendor
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+# Visual Studio Code
+.vscode/*
+!.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+# Local History for Visual Studio Code
+.history/
+# Built Visual Studio Code Extensions
+*.vsix
+# Shared DrupalEnv Robo configuration
+roboConfDrupalEnv.local.yml
+# ./php.sh bin path
+.php.env
+
+#### End added by Drupal Env project scaffolding ####

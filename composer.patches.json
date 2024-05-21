@@ -1,0 +1,7 @@
+{
+  "patches": {
+    "drupal/core-composer-scaffold": {
+      "Disable drupal/core from scaffolding without being in composer.extra.drupal-scaffold.allowed-packages in that way one has more control of when new scaffolding is added.": "./patches/drupal.core-composer-scaffold.implicit-drupal-core-disable.patch"
+    }
+  }
+}
