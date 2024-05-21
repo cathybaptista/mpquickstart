@@ -1,0 +1,7 @@
+11490a3fcb4f9b07ded4a5010485c7c5|cathybaptista|develop|Tue May 21 11:28:33 EDT 2024|./composer.sh require -W drupal/core-dev --dev --ansi
+4f846ca4050de05a066b78173c0dcd26|cathybaptista|develop|Tue May 21 11:28:38 EDT 2024|./composer.sh require -W drush/drush --ansi
+a6dcc6179ee1e6525ef69f8823e306ce|cathybaptista|develop|Tue May 21 11:29:31 EDT 2024|./composer.sh require -W mpbixal/drupal-env-lando:dev-main --ansi
+4cc496f10dab6bd1c622a5907e59b3f6|cathybaptista|develop|Tue May 21 12:14:29 EDT 2024|./composer.sh require -W drupal/memcache --ansi
+59409aabf15727600116f38edc8f6c6c|cathybaptista|develop|Tue May 21 12:15:47 EDT 2024|./composer.sh require -W drupal/elasticsearch_connector:@dev --ansi
+43f7b241befe3647e239c3b9c16ece1e|cathybaptista|develop|Tue May 21 12:17:55 EDT 2024|./composer.sh require -W drupal/admin_toolbar drupal/paragraphs drupal/disable_user_1_edit drupal/menu_admin_per_menu drupal/role_delegation drupal/twig_tweak drupal/twig_field_value --ansi
+91f6fcc32bfbb2097ee384aac415d1ff|cathybaptista|develop|Tue May 21 12:18:30 EDT 2024|./composer.sh require -W drupal/devel --dev --ansi

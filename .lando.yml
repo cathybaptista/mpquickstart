@@ -1,0 +1,14 @@
+name: discovery
+config:
+  database: 'mysql:8.0'
+  php: '8.2'
+services:
+  cache:
+    type: 'memcached:1'
+  search:
+    type: 'elasticsearch:8.2.3'
+  node:
+    type: 'node:20'
+    build:
+      - ./orch/build_node.sh
+    scanner: false

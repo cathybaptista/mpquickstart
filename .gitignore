@@ -51,3 +51,10 @@ roboConfDrupalEnv.local.yml
 .php.env
 
 #### End added by Drupal Env project scaffolding ####
+
+#### Added by Drupal Env Lando project scaffolding ####
+
+# Ignore .env files as they are personal
+/.lando.local.yml
+
+#### End added by Drupal Env Lando scaffolding ####

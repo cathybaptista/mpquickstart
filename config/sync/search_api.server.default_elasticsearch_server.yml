@@ -1,0 +1,21 @@
+uuid: 7c0ef7db-476d-410a-a6cf-1a66c06f961f
+langcode: en
+status: true
+dependencies:
+  module:
+    - elasticsearch_connector
+id: default_elasticsearch_server
+name: 'Default Elasticsearch Server'
+description: ''
+backend: elasticsearch
+backend_config:
+  connector: standard
+  connector_config:
+    url: 'http://www.go.com'
+    enable_debug_logging: false
+  advanced:
+    fuzziness: auto
+    prefix: ''
+    suffix: ''
+    synonyms:
+      - ''
